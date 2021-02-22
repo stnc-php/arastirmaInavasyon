@@ -358,3 +358,5 @@
             </div>
 
        </div>
+
+       <!-- http://hilios.github.io/jQuery.countdown/examples/show-total-hours.html -->

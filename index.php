@@ -1,3 +1,21 @@
+<?php
+    include 'INI.class.php'; 
+    $ini = new INI('config.ini');
+if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
+    header("Content-type: application/json; charset=utf-8");
+
+     $arr = array();
+     $arr["panel1Live"]= $ini->data['live']['erumEdya1Yayin'];
+     $arr["panel2Live"]= $ini->data['live']['erumEdya2Yayin'];
+     $arr["status"]="ok";
+     die(json_encode($arr));
+
+        // if($_GET){ } 
+}
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -157,36 +175,78 @@
       <div class="container" data-aos="fade-up">
 
 <div class="row">
+
   <div class="section-header">
     <h2>Canlı Yayınlar</h2>
   </div>
 
 
   <h3 id="conta8" class="sub-heading text-center">
-Canlı Yayın Program Akışı ve Kanal Bilgilerine Aşağıdan Ulaşabilirsiniz
-  
+   Canlı Yayın Program Akışı ve Kanal Bilgilerine Aşağıdan Ulaşabilirsiniz
   </h3>
 
-  
-  <div class="col-xl-6 col-lg-4 col-md-6 col-sm-12 col-12">
+         <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn">tıkl</a> -->
+<?php if ($ini->data['live']['erumedya1Open']=="yes"):?>
+ <div class="col-xl-6 col-lg-4 col-md-6 col-sm-12 col-12">
     <div class="video-testimonial-block" style="height: 315px!important ;background-color: #F1F1F1; ">
-        <div class="video-thumbnail"><img src="assets/img/youtubeLogo.png" alt="" class="img-fluid"></div>
         <div class="video">
-            <!-- <iframe src="https://www.youtube.com/embed/KEiAVv1UNac" allowfullscreen>
-            </iframe> -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/<?php echo  $ini->data['live']['erumEdya1Link']?>" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
         </div>
-        <a href="#" class="video-play"  style="    top: 74%;"></a>
     </div>
 
     <div class="video-testimonial-content">
-        <h4 class="mb10"> ERUMEDYA Kanalı  </h4>
-        <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn">tıkl</a> -->
-        <p> Panelin adı canlı olarak gelecektir </p>
+        <h4 style="margin:15px" class="mb10"> ERUMEDYA Kanalı  </h4>
+        <p class="panel1Live"> Panelin adı canlı olarak gelecektir </p>
     </div>
-    
 </div>
+<?php
+endif;
+?>
 
 
+<?php if ($ini->data['live']['erumedya1Open']=="no"):?>
+<div class="col-xl-6 col-lg-4 col-md-6 col-sm-12 col-12">
+  <div class="video-testimonial-block" style="height: 315px!important;background-color: #F1F1F1;  ">
+      <div class="video-thumbnail"><img src="assets/img/youtubeLogo.png" alt="" class="img-fluid"></div>
+      <div class="video">
+      </div>
+      <a href="#" class="video-play" style="    top: 74%;" ></a>
+  </div>
+  <div class="video-testimonial-content">
+    <h4 class="mb10"  style="margin:15px" > ERUMEDYA  Kanalı </h4>
+    <p class="panel1Live"> Panelin adı canlı olarak gelecektir </p>
+  </div>
+</div>
+<?php
+endif;
+?>
+
+
+
+<?php if ($ini->data['live']['erumedya2Open']=="yes"):?>
+<div class="col-xl-6 col-lg-4 col-md-6 col-sm-12 col-12">
+  <div class="video-testimonial-block" style="height: 315px!important;background-color: #F1F1F1;  ">
+  <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/<?php echo  $ini->data['live']['erumEdya2Link']?>" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+        </div>
+  </div>
+  <div class="video-testimonial-content">
+    <h4 class="mb10"  style="margin:15px"> ERUMEDYA2  Kanalı </h4>
+    <p class="panel2Live"> Panelin adı canlı olarak gelecektir </p>
+  </div>
+</div>
+<?php
+endif;
+?>
+
+
+<?php if ($ini->data['live']['erumedya2Open']=="no"):?>
 <div class="col-xl-6 col-lg-4 col-md-6 col-sm-12 col-12">
   <div class="video-testimonial-block" style="height: 315px!important;background-color: #F1F1F1;  ">
       <div class="video-thumbnail"><img src="assets/img/youtubeLogo.png" alt="" class="img-fluid"></div>
@@ -197,11 +257,13 @@ Canlı Yayın Program Akışı ve Kanal Bilgilerine Aşağıdan Ulaşabilirsiniz
       <a href="#" class="video-play" style="    top: 74%;" ></a>
   </div>
   <div class="video-testimonial-content">
-    <h4 class="mb10"> ERUMEDYA2  Kanalı </h4>
-    <p> Panelin adı canlı olarak gelecektir </p>
+    <h4 class="mb10"  style="margin:15px"> ERUMEDYA2  Kanalı </h4>
+    <p class="panel2Live"> Panelin adı canlı olarak gelecektir </p>
   </div>
 </div>
-
+<?php
+endif;
+?>
 
 
 </div>
@@ -1844,22 +1906,9 @@ Veteriner ve Gıda Araştırmaları
           </div>
           </div>
   
-  
-   
-
-
-
-
-
  <!-- End Schdule Day 2 -->
         </div>
-
-
       </div>
-
-
-
-
       </div>
 
     </section><!-- End Schedule Section -->
@@ -1868,26 +1917,18 @@ Veteriner ve Gıda Araştırmaları
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-
-
-
-  <div class="text-center">
-    <img src="assets/img/spons.jpg" alt="" class="img-fluid" alt="">
-  </div>
+                <div class="text-center">
+                    <img src="assets/img/spons.jpg" alt="" class="img-fluid" alt="">
+                </div>
         </div>
         </div>
-
       </div>
-
-      </section>
+    </section>
 
 
       <section id="OrganizasyonKomite">
                 <?php include "komite.php" ?>
       </section>
-
-      
-
 
   </main><!-- End #main -->
 
@@ -1916,11 +1957,47 @@ Veteriner ve Gıda Araştırmaları
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+<script>
+
+setInterval(ajaxCall, 300000); //300000 MS == 10 minutes
+// setInterval(ajaxCall, 5000); //5000 MS == 5 second
+
+function ajaxCall() {
+    fetch("http://arastirma.test/?action=panel", {
+      method: 'GET',
+      headers: {'X-Requested-With': 'XMLHttpRequest'}
+    })
+    .then(response => {
+      if( response.ok ) {
+        return response.json()
+      } else {
+       console.log("error")
+      }
+    })
+    .then(data => {
+        console.log(data.status)
+      if (data.status == 'ok') {
+         $(".panel1Live").text(data.panel1Live);
+         $(".panel2Live").text(data.panel2Live);
+      } else {
+        console.log("error")
+      }
+    })
+    .catch((error) => {
+        console.log("error")
+    });
+}
+
+
+</script>
+
 
 </body>
 
