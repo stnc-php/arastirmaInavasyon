@@ -205,16 +205,11 @@
   /**
    * Initiate gallery lightbox 
    */
-  const galleryLightbox = GLightbox({
-    selector: '.gallery-lightbox'
-  });
+ // const galleryLightbox = GLightbox({
+ //   selector: '.gallery-lightbox'
+ // });
 
-  /**
-   * Buy tickets select the ticket type on click
-   */
-  on('show.bs.modal', '#buy-ticket-modal', function(event) {
-    select('#buy-ticket-modal #ticket-type').value = event.relatedTarget.getAttribute('data-ticket-type')
-  })
+
 
   /**
    * Animation on scroll
