@@ -8,6 +8,10 @@ if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQU
      $arr["panel1Live"]= $ini->data['live']['erumEdya1Yayin'];
      $arr["panel2Live"]= $ini->data['live']['erumEdya2Yayin'];
      $arr["erumedyaSingleYayin"]= $ini->data['live']['erumedyaSingleYayin'];
+     $arr["erumedyaSingleYayinBaslik"]= $ini->data['live']['erumedyaSingleYayinBaslik'];
+     $arr["erumedyaSingleYayinTitle"]= $ini->data['live']['erumedyaSingleYayinTitle'];
+     $arr["erumedyaSingleYayinKonusmaci"]= $ini->data['live']['erumedyaSingleYayinKonusmaci'];
+
      $arr["status"]="ok";
      die(json_encode($arr));
 
@@ -57,7 +61,7 @@ if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQU
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css?p=2021-10" rel="stylesheet">
+  <link href="assets/css/style.css?p=2021-v12" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: TheEvent - v4.0.1
@@ -183,7 +187,9 @@ if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQU
 
 
   <h3 id="conta8" class="sub-heading text-center">
-   Canlı Yayın Program Akışı ve Kanal Bilgilerine Aşağıdan Ulaşabilirsiniz
+   Canlı Yayın Program Akışı ve Kanal Bilgilerine Aşağıdan Ulaşabilirsiniz.
+   <br>
+   Canlı Yayını Buradan İzleyebilirsiniz.
   </h3>
 
          <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn">tıkl</a> -->
@@ -202,7 +208,12 @@ if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQU
 
     <div class="video-testimonial-content">
         <h4 style="margin:15px" class="mb10">   <a style="color:#0e1b4d" target="_blank" href="https://www.youtube.com/user/EruMedya">ERUMEDYA Kanalı</a> </h4>
-        <p class="erumedyaSingleYayin"> Panelin adı canlı olarak gelecektir </p>
+        <p class="erumedyaSingleYayin"> Açılış Konuşmaları  </p>
+        <strong class="erumedyaSingleYayinBaslik"> <?php echo  $ini->data['live']['erumedyaSingleYayinBaslik']?>  </strong>
+        <br>
+        <strong class="erumedyaSingleYayinTitle"> <?php echo  $ini->data['live']['erumedyaSingleYayinTitle']?>  </strong>
+        <br>
+        <strong class="erumedyaSingleYayinKonusmaci"> <?php echo  $ini->data['live']['erumedyaSingleYayinKonusmaci']?>  </strong>
     </div>
 </div>
 <?php
@@ -224,7 +235,12 @@ endif;
 
     <div class="video-testimonial-content">
         <h4 style="margin:15px" class="mb10">   <a style="color:#0e1b4d" target="_blank" href="https://www.youtube.com/user/EruMedya">ERUMEDYA Kanalı</a> </h4>
-        <p class="panel1Live"> Panelin adı canlı olarak gelecektir </p>
+        <p class="erumedyaSingleYayin"> Açılış Konuşmaları  </p>
+        <strong class="erumedyaSingleYayinBaslik"> <?php echo  $ini->data['live']['erumedyaSingleYayinBaslik']?>  </strong>
+        <br>
+        <strong class="erumedyaSingleYayinTitle"> <?php echo  $ini->data['live']['erumedyaSingleYayinTitle']?>  </strong>
+        <br>
+        <strong class="erumedyaSingleYayinKonusmaci"> <?php echo  $ini->data['live']['erumedyaSingleYayinKonusmaci']?>  </strong>
     </div>
 </div>
 <?php
@@ -261,12 +277,19 @@ endif;
         </iframe>
         </div>
   </div>
-  <div class="video-testimonial-content">
- 
-    <h4 style="margin:15px" class="mb10">   <a style="color:#0e1b4d" target="_blank" href="https://www.youtube.com/channel/UCo9voRWVF7weDc3kqe0B09g">ERUMEDYA2 Kanalı</a> </h4>
 
-    <p class="panel2Live"> Panelin adı canlı olarak gelecektir </p>
-  </div>
+
+  <div class="video-testimonial-content">
+        <h4 style="margin:15px" class="mb10">    <a style="color:#0e1b4d" target="_blank" href="https://www.youtube.com/channel/UCo9voRWVF7weDc3kqe0B09g">ERUMEDYA2 Kanalı</a> </h4>
+        <p class="erumedyaSingleYayin"> Açılış Konuşmaları  </p>
+        <strong class="erumedyaSingleYayinBaslik"> <?php echo  $ini->data['live']['erumedyaSingleYayinBaslik']?>  </strong>
+        <br>
+        <strong class="erumedyaSingleYayinTitle"> <?php echo  $ini->data['live']['erumedyaSingleYayinTitle']?>  </strong>
+        <br>
+        <strong class="erumedyaSingleYayinKonusmaci"> <?php echo  $ini->data['live']['erumedyaSingleYayinKonusmaci']?>  </strong>
+    </div>
+
+
 </div>
 <?php
 endif;
@@ -669,7 +692,7 @@ endif;
     
                           <span>Moderatör: </span>  Prof. Dr. Derviş Karaboğa
                           <p>
-                            Öğr. Gör.	Barış Güncan Hakanoğlu (Kırşehir Ahi Evran Üniversitesi)
+                            Öğr. Gör.	Barış Gürcan Hakanoğlu (Kırşehir Ahi Evran Üniversitesi)
                             <br>
                             Dr. Cihan Öner (Nevşehir Hacı Bektaşi Veli Üniversitesi)
                             <br>
@@ -1994,11 +2017,11 @@ Veteriner ve Gıda Araştırmaları
 
 <script>
 
-setInterval(ajaxCall, 300000); //300000 MS == 10 minutes
+setInterval(ajaxCall, 75000); //2.5dk //300000 MS == 10 minutes
 // setInterval(ajaxCall, 5000); //5000 MS == 5 second
 
 function ajaxCall() {
-    fetch("http://arastirma.test/?action=panel", {
+    fetch("https://arastirmainovasyon.erciyes.edu.tr/?action=panel", {
       method: 'GET',
       headers: {'X-Requested-With': 'XMLHttpRequest'}
     })
@@ -2015,6 +2038,14 @@ function ajaxCall() {
          $(".panel1Live").text(data.panel1Live);
          $(".panel2Live").text(data.panel2Live);
          $(".erumedyaSingleYayin").text(data.erumedyaSingleYayin);
+         $(".erumedyaSingleYayinBaslik").text(data.erumedyaSingleYayinBaslik);
+         $(".erumedyaSingleYayinTitle").text(data.erumedyaSingleYayinTitle);
+         $(".erumedyaSingleYayinKonusmaci").text(data.erumedyaSingleYayinKonusmaci);
+
+
+
+
+
       } else {
         console.log("error")
       }
