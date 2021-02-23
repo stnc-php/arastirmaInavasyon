@@ -344,7 +344,7 @@ endif;
         </ul>
 
         <h3 id="conta" class="sub-heading">Canlı yayınlar belirtilen saatte ilgili youtube linkinde aktif olacaktır.
-          Panellerle alakalı sorularınızı <a style="color: crimson;" href="mailto:arastirmaİnovasyon@erciyes.edu.tr">arastirmaİnovasyon@erciyes.edu.tr</a> adresine  panel başlığını belirterek
+          Panellerle alakalı sorularınızı <a style="color: crimson;" href="mailto:arastirmainovasyon@erciyes.edu.tr">arastirmainovasyon@erciyes.edu.tr</a> adresine  panel başlığını belirterek
 
          gönderiniz.
         
@@ -424,6 +424,11 @@ endif;
  
             <div class="row schedule-item" style="background-color: white;">
            
+		        <div class="alert alert-dark text-center " role="alert">
+                Açılış Konuşmaları Paneli Bitmiştir
+                </div> 
+				
+				
                     <div class="col-md-2">
                         <time class="defaultTime">23/02/2021 <br> 09:00-12:00 </time>
                         <div class="datetime"><time datetime="2021-02-23" class="icon"><strong>23 Şubat</strong><span>09:00 <br> 12:00</span></time></div>
@@ -550,7 +555,7 @@ endif;
                       
 
                           <h4 class="mb10">
-                            <a href="mailto:arastirmaİnovasyon@erciyes.edu.tr?subject=Yapay Zeka ve Yazılım  Araştırmaları Soru&body=Bilgi İletişim ve Haberleşme Teknolojileri Panelleri / Yapay Zeka ve Yazılım  Araştırmaları Sorusu: ">
+                            <a href="mailto:arastirmainovasyon@erciyes.edu.tr?subject=Yapay Zeka ve Yazılım  Araştırmaları Soru&body=Bilgi İletişim ve Haberleşme Teknolojileri Panelleri / Yapay Zeka ve Yazılım  Araştırmaları Sorusu: ">
                           Soru Sorun</a>  
                           </h4>
 
@@ -645,7 +650,7 @@ endif;
                 <div class="video-testimonial-content">
                     <h4 class="mb10">  <a href="https://www.youtube.com/channel/UCo9voRWVF7weDc3kqe0B09g">İzleyin</a></h4>
                     <h4 class="mb10">
-                      <a href="mailto:arastirmaİnovasyon@erciyes.edu.tr?subject=Nükleer ve Yenilenebilir Enerji Araştırmaları Soru&body=Nükleer ve Yenilenebilir Enerji Araştırmaları Sorusu: ">
+                      <a href="mailto:arastirmainovasyon@erciyes.edu.tr?subject=Nükleer ve Yenilenebilir Enerji Araştırmaları Soru&body=Nükleer ve Yenilenebilir Enerji Araştırmaları Sorusu: ">
                    Soru Sorun</a>  
                    </h4>
 
@@ -728,7 +733,7 @@ endif;
                 <div class="video-testimonial-content">
                     <h4 class="mb10"> <a href="https://www.youtube.com/user/EruMedya">İzleyin</a> </h4>
                     <h4 class="mb10">
-                      <a href="mailto:arastirmaİnovasyon@erciyes.edu.tr?subject=Donanım ve Haberleşme Araştırmaları Soru&body=Donanım ve Haberleşme Araştırmaları Sorusu: ">
+                      <a href="mailto:arastirmainovasyon@erciyes.edu.tr?subject=Donanım ve Haberleşme Araştırmaları Soru&body=Donanım ve Haberleşme Araştırmaları Sorusu: ">
                    Soru Sorun</a>  
                    </h4>
                 </div>
@@ -812,7 +817,7 @@ endif;
                 <div class="video-testimonial-content">
                     <h4 class="mb10"><a href="https://www.youtube.com/channel/UCo9voRWVF7weDc3kqe0B09g">İzleyin</a></h4>
                     <h4 class="mb10">
-                      <a href="mailto:arastirmaİnovasyon@erciyes.edu.tr?subject=Enerji Depolama ve Batarya Teknolojileri Soru&body=Enerji Depolama ve Batarya Teknolojileri Sorusu: ">
+                      <a href="mailto:arastirmainovasyon@erciyes.edu.tr?subject=Enerji Depolama ve Batarya Teknolojileri Soru&body=Enerji Depolama ve Batarya Teknolojileri Sorusu: ">
                    Soru Sorun</a>  
                    </h4>
 
@@ -985,7 +990,7 @@ endif;
                 <div class="video-testimonial-content">
                     <h4 class="mb10"> <a href="https://www.youtube.com/user/EruMedya">İzleyin</a></h4>
                     <h4 class="mb10">
-                      <a href="mailto:arastirmaİnovasyon@erciyes.edu.tr?subject=Tarımsal Araştırmalar Merkez Tanıtımları Soru&body=Tarımsal Araştırmalar Merkez Tanıtımları Sorusu: ">
+                      <a href="mailto:arastirmainovasyon@erciyes.edu.tr?subject=Tarımsal Araştırmalar Merkez Tanıtımları Soru&body=Tarımsal Araştırmalar Merkez Tanıtımları Sorusu: ">
                    Soru Sorun</a>  
                    </h4>
                 </div>
@@ -1073,7 +1078,7 @@ endif;
                     <h4 class="mb10"> <a href="https://www.youtube.com/channel/UCo9voRWVF7weDc3kqe0B09g">İzleyin</a></h4>
                  
                     <h4 class="mb10">
-                      <a href="mailto:arastirmaİnovasyon@erciyes.edu.tr?subject=Sağlık ve Yaşam Bilimleri Araştırma Merkezleri Tanıtımı Soru&body=Sağlık ve Yaşam Bilimleri Araştırma Merkezleri Tanıtımı Sorusu: ">
+                      <a href="mailto:arastirmainovasyon@erciyes.edu.tr?subject=Sağlık ve Yaşam Bilimleri Araştırma Merkezleri Tanıtımı Soru&body=Sağlık ve Yaşam Bilimleri Araştırma Merkezleri Tanıtımı Sorusu: ">
                    Soru Sorun</a>  
                    </h4>
 
@@ -1156,7 +1161,7 @@ Doç. Dr. Uğur Azizoğlu (Kayseri Üniversitesi)
                     <h4 class="mb10"> <a href="https://www.youtube.com/user/EruMedya">İzleyin</a> </h4>
 
                     <h4 class="mb10">
-                      <a href="mailto:arastirmaİnovasyon@erciyes.edu.tr?subject=Tarımsal Alanda Öncül Araştırmalar Soru&body=Tarımsal Alanda Öncül Araştırmalar Sorusu: ">
+                      <a href="mailto:arastirmainovasyon@erciyes.edu.tr?subject=Tarımsal Alanda Öncül Araştırmalar Soru&body=Tarımsal Alanda Öncül Araştırmalar Sorusu: ">
                    Soru Sorun</a>  
                    </h4>
                  
@@ -1232,7 +1237,7 @@ Doç. Dr. Uğur Azizoğlu (Kayseri Üniversitesi)
                     <h4 class="mb10"> <a href="https://www.youtube.com/channel/UCo9voRWVF7weDc3kqe0B09g">İzleyin</a></h4>
                  
                     <h4 class="mb10">
-                      <a href="mailto:arastirmaİnovasyon@erciyes.edu.tr?subject=Öncül Araştırmalar 1 Soru&body=Öncül Araştırmalar 1 Sorusu: ">
+                      <a href="mailto:arastirmainovasyon@erciyes.edu.tr?subject=Öncül Araştırmalar 1 Soru&body=Öncül Araştırmalar 1 Sorusu: ">
                    Soru Sorun</a>  
                    </h4>
                 </div>
@@ -1330,7 +1335,7 @@ Doç. Dr. 	Yusuf Kaygısız (Aksaray Üniversitesi)
                     <h4 class="mb10">  <a href="https://www.youtube.com/user/EruMedya">İzleyin</a></h4>
                   
                     <h4 class="mb10">
-                      <a href="mailto:arastirmaİnovasyon@erciyes.edu.tr?subject=Merkezi Araştırma Laboratuvarları Tanıtımları Soru&body=Merkezi Araştırma Laboratuvarları Tanıtımları Sorusu: ">
+                      <a href="mailto:arastirmainovasyon@erciyes.edu.tr?subject=Merkezi Araştırma Laboratuvarları Tanıtımları Soru&body=Merkezi Araştırma Laboratuvarları Tanıtımları Sorusu: ">
                    Soru Sorun</a>  
                    </h4>
                 </div>
@@ -1411,7 +1416,7 @@ Doç. Dr. 	Yusuf Kaygısız (Aksaray Üniversitesi)
                     <h4 class="mb10"> <a href="https://www.youtube.com/channel/UCo9voRWVF7weDc3kqe0B09g">İzleyin</a> </h4>
                  
                     <h4 class="mb10">
-                      <a href="mailto:arastirmaİnovasyon@erciyes.edu.tr?subject=Enerji Ekonomisi ve Yönetimi Soru&body=Enerji Ekonomisi ve Yönetimi Sorusu: ">
+                      <a href="mailto:arastirmainovasyon@erciyes.edu.tr?subject=Enerji Ekonomisi ve Yönetimi Soru&body=Enerji Ekonomisi ve Yönetimi Sorusu: ">
                    Soru Sorun</a>  
                    </h4>
                 </div>
@@ -1608,7 +1613,7 @@ Veteriner ve Gıda Araştırmaları
                 <div class="video-testimonial-content">
                     <h4 class="mb10"><a href="https://www.youtube.com/user/EruMedya">İzleyin</a> </h4>
                     <h4 class="mb10">
-                      <a href="mailto:arastirmaİnovasyon@erciyes.edu.tr?subject=Veteriner ve Gıda Araştırmaları Soru&body=Veteriner ve Gıda Araştırmaları Sorusu: ">
+                      <a href="mailto:arastirmainovasyon@erciyes.edu.tr?subject=Veteriner ve Gıda Araştırmaları Soru&body=Veteriner ve Gıda Araştırmaları Sorusu: ">
                    Soru Sorun</a>  
                    </h4>
                 </div>
@@ -1686,7 +1691,7 @@ Veteriner ve Gıda Araştırmaları
               <div class="video-testimonial-content">
                   <h4 class="mb10">  <a href="https://www.youtube.com/channel/UCo9voRWVF7weDc3kqe0B09g">İzleyin</a></h4>
                   <h4 class="mb10">
-                    <a href="mailto:arastirmaİnovasyon@erciyes.edu.tr?subject=Yöresel ve Stratejik Araştırmalar Soru&body=Yöresel ve Stratejik Araştırmalar Sorusu: ">
+                    <a href="mailto:arastirmainovasyon@erciyes.edu.tr?subject=Yöresel ve Stratejik Araştırmalar Soru&body=Yöresel ve Stratejik Araştırmalar Sorusu: ">
                  Soru Sorun</a>  
                  </h4>
               </div>
@@ -1766,7 +1771,7 @@ Veteriner ve Gıda Araştırmaları
                   <h4 class="mb10"> <a href="https://www.youtube.com/channel/UCo9voRWVF7weDc3kqe0B09g">İzleyin</a></h4>
 
                   <h4 class="mb10">
-                    <a href="mailto:arastirmaİnovasyon@erciyes.edu.tr?subject=Öncül Araştırmalar 2 Soru&body=Öncül Araştırmalar 2 Sorusu: ">
+                    <a href="mailto:arastirmainovasyon@erciyes.edu.tr?subject=Öncül Araştırmalar 2 Soru&body=Öncül Araştırmalar 2 Sorusu: ">
                  Soru Sorun</a>  
                  </h4>
               </div>
@@ -1858,7 +1863,7 @@ Veteriner ve Gıda Araştırmaları
               <div class="video-testimonial-content">
                   <h4 class="mb10">İzleyin</h4>
                   <h4 class="mb10">
-                    <a href="mailto:arastirmaİnovasyon@erciyes.edu.tr?subject=Sağlık ve Yaşam Bilimleri Öncül Araştırmalar Soru&body=Sağlık ve Yaşam Bilimleri Öncül Araştırmalar Sorusu: ">
+                    <a href="mailto:arastirmainovasyon@erciyes.edu.tr?subject=Sağlık ve Yaşam Bilimleri Öncül Araştırmalar Soru&body=Sağlık ve Yaşam Bilimleri Öncül Araştırmalar Sorusu: ">
                  Soru Sorun</a>  
                  </h4>
               </div>
@@ -1950,7 +1955,7 @@ Veteriner ve Gıda Araştırmaları
               <div class="video-testimonial-content">
                   <h4 class="mb10"> <a href="https://www.youtube.com/user/EruMedya">İzleyin</a></h4>
                   <h4 class="mb10">
-                    <a href="mailto:arastirmaİnovasyon@erciyes.edu.tr?subject=Malzeme ve İmalat Teknolojileri Soru&body=Malzeme ve İmalat Teknolojileri Sorusu: ">
+                    <a href="mailto:arastirmainovasyon@erciyes.edu.tr?subject=Malzeme ve İmalat Teknolojileri Soru&body=Malzeme ve İmalat Teknolojileri Sorusu: ">
                  Soru Sorun</a>  
                  </h4>
               </div>
