@@ -25,7 +25,19 @@
 			</tr>
 		</table>
 	</div>
-	<div class="row schedule-item">
+	<div class="row schedule-item" <?php if ($ini->data['gun2']['TarimsalArastirma1_End']=="yes"):?> style="background-color: lightskyblue;"
+		<?php endif?>>
+        <?php if ($ini->data['gun2']['TarimsalArastirma1_Start']=="yes"):?>
+		<div class="alert alert-danger text-center live" role="alert">ŞU AN CANLI YAYINDAYIZ 
+            <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['TarimsalArastirma1_Link']?>" style="color: #0dcaf0;font-size: 17px;" class="glightbox play-btn"> İzlemek İçin Tıklayın</a>
+		</div>
+		<?php endif?>
+		<?php if ($ini->data['gun2']['TarimsalArastirma1_End']=="yes"):?>
+		<div class="alert  alert-info text-center " role="alert">Tarımsal Araştırmalar Merkez Tanıtımlar Paneli Bitmiştir 
+            <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['TarimsalArastirma1_Link']?>" class="glightbox play-btn">Panel Kaydını İzlemek İçin Tıklayın</a>
+		</div>
+		<?php endif?>
+
 		<div class="col-md-2">
 			<time class="defaultTime">24/02/2021
 				<br>09:30-11:00</time>
@@ -67,14 +79,17 @@
 		<div class=" col-md-2">
 			<div class="video-testimonial-block">
 				<div class="video-thumbnail">
-					<a href="https://www.youtube.com/user/EruMedya">
+                <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['TarimsalArastirma1_Link']?>" class="glightbox play-btn">
 						<img src="assets/img/canli_yay.png" alt="" class="img-fluid">
 					</a>
 				</div>
 				<div class="video"></div>
 			</div>
 			<div class="video-testimonial-content">
-				<h4 class="mb10"> <a href="https://www.youtube.com/user/EruMedya">İzleyin</a></h4>
+				<h4 class="mb10">
+                <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['TarimsalArastirma1_Link']?>" class="glightbox play-btn">İzleyin</a>
+             
+            </h4>
 				<h4 class="mb10">
                       <a href="mailto:arastirmainovasyon@erciyes.edu.tr?subject=Tarımsal Araştırmalar Merkez Tanıtımları Soru&body=Tarımsal Araştırmalar Merkez Tanıtımları Sorusu: ">
                    Soru Sorun</a>  
@@ -82,7 +97,20 @@
 			</div>
 		</div>
 	</div>
-	<div class="row schedule-item" style="background-color: white;">
+
+
+	<div class="row schedule-item" <?php if ($ini->data['gun2']['saglikYasam_End']=="yes"):?> style="background-color: lightskyblue;"
+		<?php endif?>>
+        <?php if ($ini->data['gun2']['saglikYasam_Start']=="yes"):?>
+		<div class="alert alert-danger text-center live" role="alert">ŞU AN CANLI YAYINDAYIZ 
+            <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['saglikYasam_Link']?>" style="color: #0dcaf0;font-size: 17px;" class="glightbox play-btn"> İzlemek İçin Tıklayın</a>
+		</div>
+		<?php endif?>
+		<?php if ($ini->data['gun2']['saglikYasam_End']=="yes"):?>
+		<div class="alert  alert-info text-center " role="alert">Sağlık ve Yaşam Bilimleri Araştırma Merkezleri Tanıtımı Paneli Bitmiştir 
+            <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['saglikYasam_Link']?>" class="glightbox play-btn">Panel Kaydını İzlemek İçin Tıklayın</a>
+		</div>
+		<?php endif?>
 		<div class="col-md-2">
 			<time class="defaultTime">24/02/2021
 				<br>09:30-12:45</time>
@@ -133,14 +161,14 @@
 		<div class=" col-md-2">
 			<div class="video-testimonial-block">
 				<div class="video-thumbnail">
-					<a href="https://www.youtube.com/channel/UCo9voRWVF7weDc3kqe0B09g">
+					<a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['saglikYasam_Link']?>" class="glightbox play-btn">
 						<img src="assets/img/canli_yay.png" alt="" class="img-fluid">
 					</a>
 				</div>
 				<div class="video"></div>
 			</div>
 			<div class="video-testimonial-content">
-				<h4 class="mb10"> <a href="https://www.youtube.com/channel/UCo9voRWVF7weDc3kqe0B09g">İzleyin</a></h4>
+				<h4 class="mb10"> <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['saglikYasam_Link']?>" class="glightbox play-btn">İzleyin</a></h4>
 				<h4 class="mb10">
                       <a href="mailto:arastirmainovasyon@erciyes.edu.tr?subject=Sağlık ve Yaşam Bilimleri Araştırma Merkezleri Tanıtımı Soru&body=Sağlık ve Yaşam Bilimleri Araştırma Merkezleri Tanıtımı Sorusu: ">
                    Soru Sorun</a>  
@@ -148,7 +176,24 @@
 			</div>
 		</div>
 	</div>
-	<div class="row schedule-item">
+
+	<div class="row schedule-item" <?php if ($ini->data['gun2']['TarimsalAlandaOncu_End']=="yes"):?> style="background-color: lightskyblue;"
+		<?php endif?>>
+
+
+        <?php if ($ini->data['gun2']['TarimsalAlandaOncu_Start']=="yes"):?>
+		<div class="alert alert-danger text-center live" role="alert">ŞU AN CANLI YAYINDAYIZ 
+            <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['TarimsalAlandaOncu_Link']?>" style="color: #0dcaf0;font-size: 17px;" class="glightbox play-btn"> İzlemek İçin Tıklayın</a>
+		</div>
+		<?php endif?>
+
+		<?php if ($ini->data['gun2']['TarimsalAlandaOncu_End']=="yes"):?>
+		<div class="alert  alert-info text-center " role="alert">Tarımsal Alanda Öncül Araştırmalar Paneli Bitmiştir 
+            <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['TarimsalAlandaOncu_Link']?>" class="glightbox play-btn">Panel Kaydını İzlemek İçin Tıklayın</a>
+		</div>
+		<?php endif?>
+
+
 		<div class="col-md-2">
 			<time class="defaultTime">24/02/2021
 				<br>11:15-12:45</time>
@@ -194,14 +239,14 @@
 		<div class=" col-md-2">
 			<div class="video-testimonial-block">
 				<div class="video-thumbnail">
-					<a href="https://www.youtube.com/user/EruMedya">
+					<a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['TarimsalAlandaOncu_Link']?>" class="glightbox play-btn">
 						<img src="assets/img/canli_yay.png" alt="" class="img-fluid">
 					</a>
 				</div>
 				<div class="video"></div>
 			</div>
 			<div class="video-testimonial-content">
-				<h4 class="mb10"> <a href="https://www.youtube.com/user/EruMedya">İzleyin</a> </h4>
+				<h4 class="mb10"> <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['TarimsalAlandaOncu_Link']?>" class="glightbox play-btn">İzleyin</a> </h4>
 				<h4 class="mb10">
                       <a href="mailto:arastirmainovasyon@erciyes.edu.tr?subject=Tarımsal Alanda Öncül Araştırmalar Soru&body=Tarımsal Alanda Öncül Araştırmalar Sorusu: ">
                    Soru Sorun</a>  
@@ -209,7 +254,23 @@
 			</div>
 		</div>
 	</div>
-	<div class="row schedule-item" style="background-color: white;">
+
+
+	<div class="row schedule-item" <?php if ($ini->data['gun2']['TarimsalAlandaOncu_End']=="yes"):?> style="background-color: lightskyblue;"
+		<?php endif?>>
+
+
+        <?php if ($ini->data['gun2']['TarimsalAlandaOncu_Start']=="yes"):?>
+		<div class="alert alert-danger text-center live" role="alert">ŞU AN CANLI YAYINDAYIZ 
+            <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['TarimsalAlandaOncu_Link']?>" style="color: #0dcaf0;font-size: 17px;" class="glightbox play-btn"> İzlemek İçin Tıklayın</a>
+		</div>
+		<?php endif?>
+
+		<?php if ($ini->data['gun2']['TarimsalAlandaOncu_End']=="yes"):?>
+		<div class="alert  alert-info text-center " role="alert">Öncül Araştırmalar Paneli Bitmiştir 
+            <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['TarimsalAlandaOncu_Link']?>" class="glightbox play-btn">Panel Kaydını İzlemek İçin Tıklayın</a>
+		</div>
+		<?php endif?>
 		<div class="col-md-2">
 			<time class="defaultTime">24/02/2021
 				<br>13:30-15:00</time>

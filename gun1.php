@@ -147,7 +147,7 @@
 	<?php // echo $ini->data['live']['erumEdya2Link']?>
 	<!-- <div class="alert alert-danger text-center live" role="alert">
                 ŞU AN CANLI YAYINDAYIZ  
-                <a href="https://www.youtube.com/watch?v=fMDCo3mir9I" style="color:blue;font-size: 17px;" 
+                <a href="https://www.youtube.com/watch?v=fMDCo3mir9I" style="color: #0dcaf0;font-size: 17px;" 
                 class="glightbox play-btn"> İzlemek İçin Tıklayın</a>
             </div> -->
 	<div class="row schedule-item" style="    background-color: lightskyblue;">
@@ -217,11 +217,11 @@
 	<div class="row schedule-item" <?php if ($ini->data['gun1']['DonanimveHaberlemeArastirmalari_End']=="yes"):?> style="background-color: lightskyblue;"
 		<?php endif?>>
 		<?php if ($ini->data['gun1']['DonanimveHaberlemeArastirmalari_Start']=="yes"):?>
-		<div class="alert alert-danger text-center live" role="alert">ŞU AN CANLI YAYINDAYIZ <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun1']['DonanimveHaberlemeArastirmalari_Link']?>" style="color:blue;font-size: 17px;" class="glightbox play-btn"> İzlemek İçin Tıklayın</a>
+		<div class="alert alert-danger text-center live" role="alert">ŞU AN CANLI YAYINDAYIZ <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun1']['DonanimveHaberlemeArastirmalari_Link']?>" style="color: #0dcaf0;font-size: 17px;" class="glightbox play-btn"> İzlemek İçin Tıklayın</a>
 		</div>
 		<?php endif?>
 		<?php if ($ini->data['gun1']['DonanimveHaberlemeArastirmalari_End']=="yes"):?>
-		<div class="alert  alert-info text-center " role="alert">Donanım ve Haberleşme Araştırmaları Paneli Bitmiştir <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun1']['DonanimveHaberlemeArastirmalari_Link']?>" class="glightbox play-btn">Panel Kaydını İzlemek İçin Tıklayın</a>
+		<div class="alert  alert-info text-center " role="alert">Nükleer ve Yenilenebilir Enerji Araştırmaları Bitmiştir <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun1']['DonanimveHaberlemeArastirmalari_Link']?>" class="glightbox play-btn">Panel Kaydını İzlemek İçin Tıklayın</a>
 		</div>
 		<?php endif?>
 		<div class="col-md-2">
@@ -288,11 +288,11 @@
 	<div class="row schedule-item" <?php if ($ini->data['gun1']['EnerjiDepolamaBataryTeknolojileri_End']=="yes"):?> style="background-color: lightskyblue;"
 		<?php endif?>>
 		<?php if ($ini->data['gun1']['EnerjiDepolamaBataryTeknolojileri_Start']=="yes"):?>
-		<div class="alert alert-danger text-center live" role="alert">ŞU AN CANLI YAYINDAYIZ <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun1']['EnerjiDepolamaBataryTeknolojileri_Link']?>" style="color:blue;font-size: 17px;" class="glightbox play-btn"> İzlemek İçin Tıklayın</a>
+		<div class="alert alert-danger text-center live" role="alert">ŞU AN CANLI YAYINDAYIZ <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun1']['EnerjiDepolamaBataryTeknolojileri_Link']?>" style="color: #0dcaf0;font-size: 17px;" class="glightbox play-btn"> İzlemek İçin Tıklayın</a>
 		</div>
 		<?php endif?>
 		<?php if ($ini->data['gun1']['EnerjiDepolamaBataryTeknolojileri_End']=="yes"):?>
-		<div class="alert  alert-info text-center " role="alert">Donanım ve Haberleşme Araştırmaları Paneli Bitmiştir <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun1']['EnerjiDepolamaBataryTeknolojileri_Link']?>" class="glightbox play-btn">Panel Kaydını İzlemek İçin Tıklayın</a>
+		<div class="alert  alert-info text-center " role="alert">Enerji Depolama ve Batarya Teknolojileri <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun1']['EnerjiDepolamaBataryTeknolojileri_Link']?>" class="glightbox play-btn">Panel Kaydını İzlemek İçin Tıklayın</a>
 		</div>
 		<?php endif?>
 		<div class="col-md-2">
