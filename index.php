@@ -7,6 +7,7 @@ if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQU
      $arr = array();
      $arr["panel1Live"]= $ini->data['live']['erumEdya1Yayin'];
      $arr["panel2Live"]= $ini->data['live']['erumEdya2Yayin'];
+     $arr["erumedyaSingleYayin"]= $ini->data['live']['erumedyaSingleYayin'];
      $arr["status"]="ok";
      die(json_encode($arr));
 
@@ -186,6 +187,30 @@ if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQU
   </h3>
 
          <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn">tıkl</a> -->
+
+
+         <?php if ($ini->data['live']['erumedyaSingle']=="single"):?>
+ <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+    <div class="video-testimonial-block" style="height: 515px!important ;background-color: #F1F1F1; ">
+        <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/<?php echo  $ini->data['live']['erumedyaSingleLink']?>" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+        </div>
+    </div>
+
+    <div class="video-testimonial-content">
+        <h4 style="margin:15px" class="mb10">   <a style="color:#0e1b4d" target="_blank" href="https://www.youtube.com/user/EruMedya">ERUMEDYA Kanalı</a> </h4>
+        <p class="erumedyaSingleYayin"> Panelin adı canlı olarak gelecektir </p>
+    </div>
+</div>
+<?php
+endif;
+?>
+
+
+
 <?php if ($ini->data['live']['erumedya1Open']=="yes"):?>
  <div class="col-xl-6 col-lg-4 col-md-6 col-sm-12 col-12">
     <div class="video-testimonial-block" style="height: 315px!important ;background-color: #F1F1F1; ">
@@ -198,7 +223,7 @@ if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQU
     </div>
 
     <div class="video-testimonial-content">
-        <h4 style="margin:15px" class="mb10"> ERUMEDYA Kanalı  </h4>
+        <h4 style="margin:15px" class="mb10">   <a style="color:#0e1b4d" target="_blank" href="https://www.youtube.com/user/EruMedya">ERUMEDYA Kanalı</a> </h4>
         <p class="panel1Live"> Panelin adı canlı olarak gelecektir </p>
     </div>
 </div>
@@ -216,7 +241,7 @@ endif;
       <a href="#" class="video-play" style="    top: 74%;" ></a>
   </div>
   <div class="video-testimonial-content">
-    <h4 class="mb10"  style="margin:15px" > ERUMEDYA  Kanalı </h4>
+  <h4 style="margin:15px" class="mb10">   <a style="color:#0e1b4d" target="_blank" href="https://www.youtube.com/user/EruMedya">ERUMEDYA Kanalı</a> </h4>
     <p class="panel1Live"> Panelin adı canlı olarak gelecektir </p>
   </div>
 </div>
@@ -237,7 +262,9 @@ endif;
         </div>
   </div>
   <div class="video-testimonial-content">
-    <h4 class="mb10"  style="margin:15px"> ERUMEDYA2  Kanalı </h4>
+ 
+    <h4 style="margin:15px" class="mb10">   <a style="color:#0e1b4d" target="_blank" href="https://www.youtube.com/channel/UCo9voRWVF7weDc3kqe0B09g">ERUMEDYA2 Kanalı</a> </h4>
+
     <p class="panel2Live"> Panelin adı canlı olarak gelecektir </p>
   </div>
 </div>
@@ -257,7 +284,8 @@ endif;
       <a href="#" class="video-play" style="    top: 74%;" ></a>
   </div>
   <div class="video-testimonial-content">
-    <h4 class="mb10"  style="margin:15px"> ERUMEDYA2  Kanalı </h4>
+  <h4 style="margin:15px" class="mb10">   <a style="color:#0e1b4d" target="_blank" href="https://www.youtube.com/channel/UCo9voRWVF7weDc3kqe0B09g">ERUMEDYA2 Kanalı</a> </h4>
+
     <p class="panel2Live"> Panelin adı canlı olarak gelecektir </p>
   </div>
 </div>
@@ -1986,6 +2014,7 @@ function ajaxCall() {
       if (data.status == 'ok') {
          $(".panel1Live").text(data.panel1Live);
          $(".panel2Live").text(data.panel2Live);
+         $(".erumedyaSingleYayin").text(data.erumedyaSingleYayin);
       } else {
         console.log("error")
       }
