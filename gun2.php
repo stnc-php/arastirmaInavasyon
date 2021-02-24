@@ -1,4 +1,4 @@
-<div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
+<div role="tabpanel" class="col-lg-9  tab-pane   fade show active" id="day-2">
 	<div class="table-responsive" style="background-color: white;">
 		<h4 class="text-center">24.02.2021 </h4>
 		<table class="table  table-bordered table-striped text-center">
@@ -28,7 +28,7 @@
 	<div class="row schedule-item" <?php if ($ini->data['gun2']['TarimsalArastirma1_End']=="yes"):?> style="background-color: lightskyblue;"
 		<?php endif?>>
         <?php if ($ini->data['gun2']['TarimsalArastirma1_Start']=="yes"):?>
-		<div class="alert alert-danger text-center live" role="alert">ŞU AN CANLI YAYINDAYIZ 
+		<div class="alert alert-danger text-center live" role="alert">CANLI YAYINDAYIZ 
             <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['TarimsalArastirma1_Link']?>" style="color: #0dcaf0;font-size: 17px;" class="glightbox play-btn"> İzlemek İçin Tıklayın</a>
 		</div>
 		<?php endif?>
@@ -102,7 +102,7 @@
 	<div class="row schedule-item" <?php if ($ini->data['gun2']['saglikYasam_End']=="yes"):?> style="background-color: lightskyblue;"
 		<?php endif?>>
         <?php if ($ini->data['gun2']['saglikYasam_Start']=="yes"):?>
-		<div class="alert alert-danger text-center live" role="alert">ŞU AN CANLI YAYINDAYIZ 
+		<div class="alert alert-danger text-center live" role="alert">CANLI YAYINDAYIZ 
             <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['saglikYasam_Link']?>" style="color: #0dcaf0;font-size: 17px;" class="glightbox play-btn"> İzlemek İçin Tıklayın</a>
 		</div>
 		<?php endif?>
@@ -182,7 +182,7 @@
 
 
         <?php if ($ini->data['gun2']['TarimsalAlandaOncu_Start']=="yes"):?>
-		<div class="alert alert-danger text-center live" role="alert">ŞU AN CANLI YAYINDAYIZ 
+		<div class="alert alert-danger text-center live" role="alert">CANLI YAYINDAYIZ 
             <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['TarimsalAlandaOncu_Link']?>" style="color: #0dcaf0;font-size: 17px;" class="glightbox play-btn"> İzlemek İçin Tıklayın</a>
 		</div>
 		<?php endif?>
@@ -256,21 +256,22 @@
 	</div>
 
 
-	<div class="row schedule-item" <?php if ($ini->data['gun2']['TarimsalAlandaOncu_End']=="yes"):?> style="background-color: lightskyblue;"
+	<div class="row schedule-item" <?php if ($ini->data['gun2']['OnculArastirma_End']=="yes"):?> style="background-color: lightskyblue;"
 		<?php endif?>>
 
 
-        <?php if ($ini->data['gun2']['TarimsalAlandaOncu_Start']=="yes"):?>
-		<div class="alert alert-danger text-center live" role="alert">ŞU AN CANLI YAYINDAYIZ 
-            <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['TarimsalAlandaOncu_Link']?>" style="color: #0dcaf0;font-size: 17px;" class="glightbox play-btn"> İzlemek İçin Tıklayın</a>
+        <?php if ($ini->data['gun2']['OnculArastirma_Start']=="yes"):?>
+		<div class="alert alert-danger text-center live" role="alert">CANLI YAYINDAYIZ 
+            <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['OnculArastirma_Link']?>" style="color: #0dcaf0;font-size: 17px;" class="glightbox play-btn"> İzlemek İçin Tıklayın</a>
 		</div>
 		<?php endif?>
 
-		<?php if ($ini->data['gun2']['TarimsalAlandaOncu_End']=="yes"):?>
+		<?php if ($ini->data['gun2']['OnculArastirma_End']=="yes"):?>
 		<div class="alert  alert-info text-center " role="alert">Öncül Araştırmalar Paneli Bitmiştir 
-            <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['TarimsalAlandaOncu_Link']?>" class="glightbox play-btn">Panel Kaydını İzlemek İçin Tıklayın</a>
+            <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['OnculArastirma_Link']?>" class="glightbox play-btn">Panel Kaydını İzlemek İçin Tıklayın</a>
 		</div>
 		<?php endif?>
+
 		<div class="col-md-2">
 			<time class="defaultTime">24/02/2021
 				<br>13:30-15:00</time>
@@ -316,14 +317,14 @@
 		<div class=" col-md-2">
 			<div class="video-testimonial-block">
 				<div class="video-thumbnail">
-					<a href="https://www.youtube.com/channel/UCo9voRWVF7weDc3kqe0B09g">
+					<a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['OnculArastirma_Link']?>" class="glightbox play-btn">
 						<img src="assets/img/canli_yay.png" alt="" class="img-fluid">
 					</a>
 				</div>
 				<div class="video"></div>
 			</div>
 			<div class="video-testimonial-content">
-				<h4 class="mb10"> <a href="https://www.youtube.com/channel/UCo9voRWVF7weDc3kqe0B09g">İzleyin</a></h4>
+				<h4 class="mb10"> <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['OnculArastirma_Link']?>" class="glightbox play-btn">İzleyin</a></h4>
 				<h4 class="mb10">
                       <a href="mailto:arastirmainovasyon@erciyes.edu.tr?subject=Öncül Araştırmalar 1 Soru&body=Öncül Araştırmalar 1 Sorusu: ">
                    Soru Sorun</a>  
@@ -331,7 +332,23 @@
 			</div>
 		</div>
 	</div>
-	<div class="row schedule-item">
+
+
+	<div class="row schedule-item" <?php if ($ini->data['gun2']['MerkeziArastirmaLab_End']=="yes"):?> style="background-color: lightskyblue;"
+		<?php endif?>>
+
+
+        <?php if ($ini->data['gun2']['MerkeziArastirmaLab_Start']=="yes"):?>
+		<div class="alert alert-danger text-center live" role="alert">CANLI YAYINDAYIZ 
+            <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['MerkeziArastirmaLab_Link']?>" style="color: #0dcaf0;font-size: 17px;" class="glightbox play-btn"> İzlemek İçin Tıklayın</a>
+		</div>
+		<?php endif?>
+
+		<?php if ($ini->data['gun2']['MerkeziArastirmaLab_End']=="yes"):?>
+		<div class="alert  alert-info text-center " role="alert">Merkezi Araştırma Laboratuvarları Tanıtımları Paneli Bitmiştir 
+            <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['MerkeziArastirmaLab_Link']?>" class="glightbox play-btn">Panel Kaydını İzlemek İçin Tıklayın</a>
+		</div>
+		<?php endif?>
 		<div class="col-md-2">
 			<time class="defaultTime">24/02/2021
 				<br>13:30-16:45</time>
@@ -379,14 +396,14 @@
 		<div class=" col-md-2">
 			<div class="video-testimonial-block">
 				<div class="video-thumbnail">
-					<a href="https://www.youtube.com/user/EruMedya">
+					<a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['MerkeziArastirmaLab_Link']?>" class="glightbox play-btn">
 						<img src="assets/img/canli_yay.png" alt="" class="img-fluid">
 					</a>
 				</div>
 				<div class="video"></div>
 			</div>
 			<div class="video-testimonial-content">
-				<h4 class="mb10">  <a href="https://www.youtube.com/user/EruMedya">İzleyin</a></h4>
+				<h4 class="mb10">  <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['MerkeziArastirmaLab_Link']?>" class="glightbox play-btn">İzleyin</a></h4>
 				<h4 class="mb10">
                       <a href="mailto:arastirmainovasyon@erciyes.edu.tr?subject=Merkezi Araştırma Laboratuvarları Tanıtımları Soru&body=Merkezi Araştırma Laboratuvarları Tanıtımları Sorusu: ">
                    Soru Sorun</a>  
@@ -394,7 +411,22 @@
 			</div>
 		</div>
 	</div>
-	<div class="row schedule-item" style="background-color: white;">
+
+	<div class="row schedule-item" <?php if ($ini->data['gun2']['EnerjiEkoYon_End']=="yes"):?> style="background-color: lightskyblue;"
+		<?php endif?>>
+
+
+        <?php if ($ini->data['gun2']['EnerjiEkoYon_Start']=="yes"):?>
+		<div class="alert alert-danger text-center live" role="alert">CANLI YAYINDAYIZ 
+            <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['EnerjiEkoYon_Link']?>" style="color: #0dcaf0;font-size: 17px;" class="glightbox play-btn"> İzlemek İçin Tıklayın</a>
+		</div>
+		<?php endif?>
+
+		<?php if ($ini->data['gun2']['EnerjiEkoYon_End']=="yes"):?>
+		<div class="alert  alert-info text-center " role="alert">Enerji Ekonomisi ve Yönetimi Paneli Bitmiştir 
+            <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['EnerjiEkoYon_Link']?>" class="glightbox play-btn">Panel Kaydını İzlemek İçin Tıklayın</a>
+		</div>
+		<?php endif?>
 		<div class="col-md-2">
 			<time class="defaultTime">24/02/2021
 				<br>15:15-16:45</time>
@@ -439,14 +471,14 @@
 		<div class=" col-md-2">
 			<div class="video-testimonial-block">
 				<div class="video-thumbnail">
-					<a href="https://www.youtube.com/channel/UCo9voRWVF7weDc3kqe0B09g">
+					<a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['EnerjiEkoYon_Link']?>" class="glightbox play-btn">
 						<img src="assets/img/canli_yay.png" alt="" class="img-fluid">
 					</a>
 				</div>
 				<div class="video"></div>
 			</div>
 			<div class="video-testimonial-content">
-				<h4 class="mb10"> <a href="https://www.youtube.com/channel/UCo9voRWVF7weDc3kqe0B09g">İzleyin</a> </h4>
+				<h4 class="mb10"> <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun2']['EnerjiEkoYon_Link']?>" class="glightbox play-btn">İzleyin</a> </h4>
 				<h4 class="mb10">
                       <a href="mailto:arastirmainovasyon@erciyes.edu.tr?subject=Enerji Ekonomisi ve Yönetimi Soru&body=Enerji Ekonomisi ve Yönetimi Sorusu: ">
                    Soru Sorun</a>  

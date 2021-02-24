@@ -1,4 +1,4 @@
-<div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+<div role="tabpanel" class="col-lg-9 tab-pane fade" id="day-1">
 	<div class="table-responsive">
 		<h4 class="text-center">23.02.2021
               </h4>
@@ -76,7 +76,8 @@
 		</div>
 	</div>
 	<div class="row schedule-item" style="    background-color: lightskyblue;">
-		<div class="alert  alert-info text-center " role="alert">Yapay Zeka ve Yazılım Araştırmaları Paneli Bitmiştir <a href="https://www.youtube.com/watch?v=fMDCo3mir9I" class="glightbox play-btn">Panel Kaydını İzlemek İçin Tıklayın</a>
+		<div class="alert  alert-info text-center " role="alert">Yapay Zeka ve Yazılım Araştırmaları Paneli Bitmiştir 
+			<a href="https://www.youtube.com/watch?v=fMDCo3mir9I" class="glightbox play-btn">Panel Kaydını İzlemek İçin Tıklayın</a>
 		</div>
 		<div class="col-md-2">
 			<time class="defaultTime">23/02/2021
@@ -125,7 +126,7 @@
 		<div class=" col-md-2">
 			<div class="video-testimonial-block">
 				<div class="video-thumbnail">
-					<a href="https://www.youtube.com/user/EruMedya">
+					<a href="https://www.youtube.com/watch?v=fMDCo3mir9I" class="glightbox play-btn">
 						<img src="assets/img/canli_yay.png" alt="" class="img-fluid">
 					</a>
 				</div>
@@ -134,7 +135,7 @@
 			</div>
 			<div class="video-testimonial-content">
 				<h4 class="mb10">
-                          <a class="glightbox play-btn" href="https://www.youtube.com/watch?v=kBvs8V4rmnQ" class="glightbox play-btn">İzleyin</a>
+                          <a class="glightbox play-btn" href="https://www.youtube.com/watch?v=fMDCo3mir9I" class="glightbox play-btn">İzleyin</a>
                           </h4>
 				<h4 class="mb10">
                             <a href="mailto:arastirmainovasyon@erciyes.edu.tr?subject=Yapay Zeka ve Yazılım  Araştırmaları Soru&body=Bilgi İletişim ve Haberleşme Teknolojileri Panelleri / Yapay Zeka ve Yazılım  Araştırmaları Sorusu: ">
@@ -151,7 +152,7 @@
                 class="glightbox play-btn"> İzlemek İçin Tıklayın</a>
             </div> -->
 	<div class="row schedule-item" style="    background-color: lightskyblue;">
-		<div class="alert  alert-info text-center " role="alert">Nükleer ve Yenilenebilir Enerji Araştırmaları <a href="https://www.youtube.com/watch?v=kBvs8V4rmnQ" class="glightbox play-btn">Panel Kaydını İzlemek İçin Tıklayın</a>
+		<div class="alert  alert-info text-center " role="alert">Nükleer ve Yenilenebilir Enerji Araştırmaları Paneli Bitmiştir <a href="https://www.youtube.com/watch?v=kBvs8V4rmnQ" class="glightbox play-btn">Panel Kaydını İzlemek İçin Tıklayın</a>
 		</div>
 		<div class="col-md-2">
 			<time class="defaultTime">23/02/2021
@@ -217,13 +218,19 @@
 	<div class="row schedule-item" <?php if ($ini->data['gun1']['DonanimveHaberlemeArastirmalari_End']=="yes"):?> style="background-color: lightskyblue;"
 		<?php endif?>>
 		<?php if ($ini->data['gun1']['DonanimveHaberlemeArastirmalari_Start']=="yes"):?>
-		<div class="alert alert-danger text-center live" role="alert">ŞU AN CANLI YAYINDAYIZ <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun1']['DonanimveHaberlemeArastirmalari_Link']?>" style="color: #0dcaf0;font-size: 17px;" class="glightbox play-btn"> İzlemek İçin Tıklayın</a>
+		<div class="alert alert-danger text-center live" role="alert">ŞU AN CANLI YAYINDAYIZ 
+			<a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun1']['DonanimveHaberlemeArastirmalari_Link']?>" 
+			style="color: #0dcaf0;font-size: 17px;" class="glightbox play-btn"> İzlemek İçin Tıklayın</a>
 		</div>
 		<?php endif?>
+
 		<?php if ($ini->data['gun1']['DonanimveHaberlemeArastirmalari_End']=="yes"):?>
-		<div class="alert  alert-info text-center " role="alert">Nükleer ve Yenilenebilir Enerji Araştırmaları Bitmiştir <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun1']['DonanimveHaberlemeArastirmalari_Link']?>" class="glightbox play-btn">Panel Kaydını İzlemek İçin Tıklayın</a>
+		<div class="alert  alert-info text-center " role="alert">Donanım ve Haberleşme Araştırmaları Paneli Bitmiştir 
+			<a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun1']['DonanimveHaberlemeArastirmalari_Link']?>"
+			 class="glightbox play-btn">Panel Kaydını İzlemek İçin Tıklayın</a>
 		</div>
 		<?php endif?>
+
 		<div class="col-md-2">
 			<time class="defaultTime">23/02/2021
 				<br>15:15- 16:45</time>
@@ -270,14 +277,14 @@
 		<div class=" col-md-2">
 			<div class="video-testimonial-block">
 				<div class="video-thumbnail">
-					<a href="<?php echo $ini->data['gun1']['DonanimveHaberlemeArastirmalari_Link']?>">
+					<a  class="glightbox play-btn" href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun1']['DonanimveHaberlemeArastirmalari_Link']?>">
 						<img src="assets/img/canli_yay.png" alt="" class="img-fluid">
 					</a>
 				</div>
 				<div class="video"></div>
 			</div>
 			<div class="video-testimonial-content">
-				<h4 class="mb10"> <a href="<?php echo $ini->data['gun1']['DonanimveHaberlemeArastirmalari_Link']?>">İzleyin</a> </h4>
+				<h4 class="mb10"> <a  class="glightbox play-btn" href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun1']['DonanimveHaberlemeArastirmalari_Link']?>">İzleyin</a> </h4>
 				<h4 class="mb10">
                       <a href="mailto:arastirmainovasyon@erciyes.edu.tr?subject=Donanım ve Haberleşme Araştırmaları Soru&body=Donanım ve Haberleşme Araştırmaları Sorusu: ">
                    Soru Sorun</a>  
@@ -292,7 +299,7 @@
 		</div>
 		<?php endif?>
 		<?php if ($ini->data['gun1']['EnerjiDepolamaBataryTeknolojileri_End']=="yes"):?>
-		<div class="alert  alert-info text-center " role="alert">Enerji Depolama ve Batarya Teknolojileri <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun1']['EnerjiDepolamaBataryTeknolojileri_Link']?>" class="glightbox play-btn">Panel Kaydını İzlemek İçin Tıklayın</a>
+		<div class="alert  alert-info text-center " role="alert">Enerji Depolama ve Batarya Teknolojileri Paneli Bitmiştir <a href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun1']['EnerjiDepolamaBataryTeknolojileri_Link']?>" class="glightbox play-btn">Panel Kaydını İzlemek İçin Tıklayın</a>
 		</div>
 		<?php endif?>
 		<div class="col-md-2">
@@ -341,14 +348,14 @@
 		<div class=" col-md-2">
 			<div class="video-testimonial-block">
 				<div class="video-thumbnail">
-					<a href="<?php echo $ini->data['gun1']['EnerjiDepolamaBataryTeknolojileri_Link']?>">
+					<a  class="glightbox play-btn" href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun1']['EnerjiDepolamaBataryTeknolojileri_Link']?>">
 						<img src="assets/img/canli_yay.png" alt="" class="img-fluid">
 					</a>
 				</div>
 				<div class="video"></div>
 			</div>
 			<div class="video-testimonial-content">
-				<h4 class="mb10"><a href="<?php echo $ini->data['gun1']['EnerjiDepolamaBataryTeknolojileri_Link']?>">İzleyin</a></h4>
+				<h4 class="mb10"><a  class="glightbox play-btn" href="https://www.youtube.com/watch?v=<?php echo $ini->data['gun1']['EnerjiDepolamaBataryTeknolojileri_Link']?>">İzleyin</a></h4>
 				<h4 class="mb10">
                       <a href="mailto:arastirmainovasyon@erciyes.edu.tr?subject=Enerji Depolama ve Batarya Teknolojileri Soru&body=Enerji Depolama ve Batarya Teknolojileri Sorusu: ">
                    Soru Sorun</a>  

@@ -199,11 +199,11 @@ if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQU
   <h3 id="conta8" class="sub-heading text-center">
    Canlı Yayın Program Akışı ve Kanal Bilgilerine Aşağıdan Ulaşabilirsiniz.
    <br>
-   Canlı Yayını Buradan İzleyebilirsiniz.
+  <strong style="color:red"> Canlı Yayınları Buradan İzleyebilirsiniz.</strong>
   </h3>
 
  
-         <?php if ($ini->data['live']['erumedyaSingle']=="single"):?>
+<?php if ($ini->data['live']['erumedyaSingle']=="single"):?>
  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
     <div class="video-testimonial-block" style="height: 515px!important ;background-color: #F1F1F1; ">
         <div class="video">
@@ -216,7 +216,7 @@ if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQU
 
     <div class="video-testimonial-content">
         <h4 style="margin:15px" class="mb10">   <a style="color:#0e1b4d" target="_blank" href="https://www.youtube.com/user/EruMedya">ERUMEDYA Kanalı</a> </h4>
-        <p class="erumedyaSingleYayin"> Açılış Konuşmaları  </p>
+        <p class="erumedyaSingleYayin">  <?php echo  $ini->data['live']['erumedyaSingleYayin']?> </p>
         <strong class="erumedyaSingleYayinBaslik"> <?php echo  $ini->data['live']['erumedyaSingleYayinBaslik']?>  </strong>
         <br>
         <strong class="erumedyaSingleYayinTitle"> <?php echo  $ini->data['live']['erumedyaSingleYayinTitle']?>  </strong>
@@ -228,7 +228,7 @@ if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQU
 endif;
 ?>
 
-
+<?php if ($ini->data['live']['erumedyaSingle']!="single"):?>
 
 <?php if ($ini->data['live']['erumedya1Open']=="yes"):?>
  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
@@ -324,7 +324,9 @@ endif;
 endif;
 ?>
 
-
+<?php
+endif;
+?>
 </div>
 </div>
 
@@ -341,10 +343,10 @@ endif;
 
         <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
           <li class="nav-item">
-            <a class="nav-link active" href="#day-1" role="tab" data-bs-toggle="tab"> 23/02/2021</a>
+            <a class="nav-link " href="#day-1" role="tab" data-bs-toggle="tab"> 23/02/2021</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#day-2" role="tab" data-bs-toggle="tab">24/02/2021</a>
+            <a class="nav-link active" href="#day-2" role="tab" data-bs-toggle="tab">24/02/2021</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#day-3" role="tab" data-bs-toggle="tab">25/02/2021</a>
@@ -410,7 +412,7 @@ endif;
         Licensing information: https://bootstrapmade.com/license/
         Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
       -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+         <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
   </footer><!-- End  Footer -->
