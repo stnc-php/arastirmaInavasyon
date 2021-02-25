@@ -1,4 +1,4 @@
-<div role="tabpanel" class="col-lg-9  tab-pane   fade show active" id="day-2">
+<div role="tabpanel" class="col-lg-9  tab-pane   fade" id="day-2">
 	<div class="table-responsive" style="background-color: white;">
 		<h4 class="text-center">24.02.2021 </h4>
 		<table class="table  table-bordered table-striped text-center">

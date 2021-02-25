@@ -343,13 +343,13 @@ endif;
 
         <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
           <li class="nav-item">
-            <a class="nav-link " href="#day-1" role="tab" data-bs-toggle="tab"> 23/02/2021</a>
+            <a class="nav-link " href="#day-1" role="tab" data-bs-toggle="tab"> 23.02.2021</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#day-2" role="tab" data-bs-toggle="tab">24/02/2021</a>
+            <a class="nav-link " href="#day-2" role="tab" data-bs-toggle="tab">24.02.2021</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#day-3" role="tab" data-bs-toggle="tab">25/02/2021</a>
+            <a class="nav-link active" href="#day-3" role="tab" data-bs-toggle="tab">25.02.2021</a>
           </li> 
         </ul>
 

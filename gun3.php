@@ -1,4 +1,4 @@
-<div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-3">
+<div role="tabpanel" class="col-lg-9  tab-pane  show active" id="day-3">
 	<div class="table-responsive" style="background-color: white;">
 		<h4 class="text-center">25.02.2021
               </h4>
@@ -68,8 +68,9 @@
 							<div class="accordion-body"> <span>Moderatör: </span> Prof. Dr. Alparslan Yıldırım
 								<p>Doç. Dr. Aykut Gram (Erciyes Üniversitesi)
 									<br>Prof. Dr. Bülent Kabak (Hitit Üniversitesi)
-									<br>Prof. Dr. Kürşat Altay (Sivas Cumhuriyet Üniversitesi)
+								
 									<br>Prof. Dr. Hasan Yalçın (Erciyes Üniversitesi)
+									<br>Prof. Dr. Kürşat Altay (Sivas Cumhuriyet Üniversitesi)
 									<br>Prof. Dr. N. Deniz Ayaz (Kırıkkale Üniversitesi)
 									<br>Prof. Dr. Yavuz Selim Çakmak (Aksaray Üniversitesi)
 									<br>Prof. Dr. Yeliz Yıldırım (Erciyes Üniversitesi)
