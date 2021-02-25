@@ -458,7 +458,7 @@
 								<p>Doç. Dr. Evrencan Özcan (Kırıkkale Üniversitesi)
 									<br>Doç. Dr. Emrah Koçak (Erciyes Üniversitesi)
 									<br>Dr. Öğr. Üyesi Mehmet Güçyetmez (Kırşehir Ahi Evran Üniversitesi)
-									<br>Prof. Dr. Oktay Özkan (Erciyes Üniversitesi)
+									<br>Dr. Öğr. Üyesi İbrahim Uyanık (Erciyes Üniversitesi)
 									<br>Doç. Dr. Recep Ulucak (Erciyes Üniversitesi)
 									<br>Prof. Dr. Rıfat Yıldız (Kapadokya Üniversitesi)</p>
 							</div>
