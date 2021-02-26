@@ -1684,6 +1684,10 @@ h1, h2, h3, h4, h5, h6 {
   .datetime{
     display: none!important;
   }
+
+  .schedule-item .video-thumbnail{
+    display: none!important;
+  }
 }
 
 
@@ -1777,4 +1781,9 @@ color: #fd9f1b;
   background-color: #e0072f;
   border-color: #f5c2c7;
   color: white;
+}
+
+
+.erumedyaSingleYayin{
+  margin-bottom: 15px;
 }

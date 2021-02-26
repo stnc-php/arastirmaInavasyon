@@ -309,10 +309,11 @@
 									<br>Prof. Dr. Cem Süer (Erciyes Üniversitesi)
 									<br>Doç. Dr. Fatih Ada (Sivas Cumhuriyet Üniversitesi)
 									<br>Prof. Dr. İrfan Kurtbaş (Hitit Üniversitesi)
+									<br>Prof. Dr. Funda Demirtürk (Tokat Gazi Osmanpaşa Üniversitesi)
 									<br>Dr. Öğr. Üyesi Fatma Dilara Balı (Niğde Ömer Halisdemir Üniversitesi)
 									<br>Dr. Öğr. Üyesi Halil Ulutabanca (Erciyes Üniversitesi)
 									<br>Prof. Dr. İrfan Koca (Yozgat Bozok Üniversitesi)
-									<br>Prof. Dr. Funda Demirtürk (Tokat Gazi Osmanpaşa Üniversitesi)
+								
 									<br>Prof. Dr. Murat Kaya (Aksaray Üniversitesi)
 									<br>Dr. Öğr. Üyesi Nuh Azgınoğlu (Kayseri Üniversitesi)
 									<br>Dr. Öğr. Üyesi Ömer Aydın (Erciyes Üniversitesi)

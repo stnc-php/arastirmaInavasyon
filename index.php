@@ -185,150 +185,150 @@ if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQU
     </section><!-- End About Section -->
 
 
-    <section id="canliYa" >
+ <section id="canliYa" >
 
-      <div class="container" data-aos="fade-up">
+    <div class="container" data-aos="fade-up">
 
-<div class="row">
+      <div class="row">
 
-  <div class="section-header">
-    <h2>Canlı Yayınlar</h2>
-  </div>
-
-
-  <h3 id="conta8" class="sub-heading text-center">
-   Canlı Yayın Program Akışı ve Kanal Bilgilerine Aşağıdan Ulaşabilirsiniz.
-   <br>
-  <strong style="color:red"> Canlı Yayınları Buradan İzleyebilirsiniz.</strong>
-  </h3>
-
- 
-<?php if ($ini->data['live']['erumedyaSingle']=="single"):?>
- <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-    <div class="video-testimonial-block" style="height: 515px!important ;background-color: #F1F1F1; ">
-        <div class="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/<?php echo  $ini->data['live']['erumedyaSingleLink']?>" 
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-        </iframe>
+        <div class="section-header">
+          <h2>Canlı Yayınlar</h2>
         </div>
-    </div>
 
-    <div class="video-testimonial-content">
-        <h4 style="margin:15px" class="mb10">   <a style="color:#0e1b4d" target="_blank" href="https://www.youtube.com/user/EruMedya">ERUMEDYA Kanalı</a> </h4>
-        <p class="erumedyaSingleYayin">  <?php echo  $ini->data['live']['erumedyaSingleYayin']?> </p>
-        <strong class="erumedyaSingleYayinBaslik"> <?php echo  $ini->data['live']['erumedyaSingleYayinBaslik']?>  </strong>
+
+        <h3 id="conta8" class="sub-heading text-center">
+        ÇALIŞTAY BİTMİŞTİR 
         <br>
-        <strong class="erumedyaSingleYayinTitle"> <?php echo  $ini->data['live']['erumedyaSingleYayinTitle']?>  </strong>
-        <br>
-        <strong class="erumedyaSingleYayinKonusmaci"> <?php echo  $ini->data['live']['erumedyaSingleYayinKonusmaci']?>  </strong>
-    </div>
-</div>
-<?php
-endif;
-?>
+        <strong style="color:red"> Yayınları Panellerdeki İlgili Linklerden İzleyebilirsiniz.</strong>
+        </h3>
 
-<?php if ($ini->data['live']['erumedyaSingle']!="single"):?>
+      
+      <?php if ($ini->data['live']['erumedyaSingle']=="single"):?>
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+          <div class="video-testimonial-block" style="height: 515px!important ;background-color: #F1F1F1; ">
+              <div class="video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/<?php echo  $ini->data['live']['erumedyaSingleLink']?>" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen>
+              </iframe>
+              </div>
+          </div>
 
-<?php if ($ini->data['live']['erumedya1Open']=="yes"):?>
- <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-    <div class="video-testimonial-block" style="height: 315px!important ;background-color: #F1F1F1; ">
-        <div class="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/<?php echo  $ini->data['live']['erumEdya1Link']?>" 
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-        </iframe>
-        </div>
-    </div>
-
-    <div class="video-testimonial-content">
-        <h4 style="margin:15px" class="mb10">   <a style="color:#0e1b4d" target="_blank" href="https://www.youtube.com/user/EruMedya">ERUMEDYA Kanalı</a> </h4>
-        <p class="erumEdya1Yayin"> <?php echo  $ini->data['live']['erumEdya1Yayin']?>  </p>
-        <strong class="erumedyaSingleYayinBaslik1"> <?php echo  $ini->data['live']['erumedyaSingleYayinBaslik1']?>  </strong>
-        <br>
-        <strong class="erumedyaSingleYayinTitle1"> <?php echo  $ini->data['live']['erumedyaSingleYayinTitle1']?>  </strong>
-        <br>
-        <strong class="erumedyaSingleYayinKonusmaci1"> <?php echo  $ini->data['live']['erumedyaSingleYayinKonusmaci1']?>  </strong>
-    </div>
-</div>
-<?php
-endif;
-?>
-
-
-<?php if ($ini->data['live']['erumedya1Open']=="no"):?>
-<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-  <div class="video-testimonial-block" style="height: 315px!important;background-color: #F1F1F1;  ">
-      <div class="video-thumbnail"><img src="assets/img/youtubeLogo.png" alt="" class="img-fluid"></div>
-      <div class="video">
+          <div class="video-testimonial-content">
+              <h4 style="margin:15px" class="mb10">   <a style="color:#0e1b4d" target="_blank" href="https://www.youtube.com/user/EruMedya">ERUMEDYA Kanalı</a> </h4>
+              <p class="erumedyaSingleYayin">  <?php echo  $ini->data['live']['erumedyaSingleYayin']?> </p>
+              <strong class="erumedyaSingleYayinBaslik"> <?php echo  $ini->data['live']['erumedyaSingleYayinBaslik']?>  </strong>
+              <br>
+              <strong class="erumedyaSingleYayinTitle"> <?php echo  $ini->data['live']['erumedyaSingleYayinTitle']?>  </strong>
+              <br>
+              <strong class="erumedyaSingleYayinKonusmaci"> <?php echo  $ini->data['live']['erumedyaSingleYayinKonusmaci']?>  </strong>
+          </div>
       </div>
-      <a href="#" class="video-play" style="    top: 74%;" ></a>
-  </div>
-  <div class="video-testimonial-content">
-  <h4 style="margin:15px" class="mb10">   <a style="color:#0e1b4d" target="_blank" href="https://www.youtube.com/user/EruMedya">ERUMEDYA Kanalı</a> </h4>
-    <p class="panel1Live"> <?php echo  $ini->data['live']['erumEdya1Yayin']?> </p>
-  </div>
-</div>
-<?php
-endif;
-?>
+      <?php
+      endif;
+      ?>
 
+      <?php if ($ini->data['live']['erumedyaSingle']!="single"):?>
 
+      <?php if ($ini->data['live']['erumedya1Open']=="yes"):?>
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+          <div class="video-testimonial-block" style="height: 315px!important ;background-color: #F1F1F1; ">
+              <div class="video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/<?php echo  $ini->data['live']['erumEdya1Link']?>" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen>
+              </iframe>
+              </div>
+          </div>
 
-<?php if ($ini->data['live']['erumedya2Open']=="yes"):?>
-<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-  <div class="video-testimonial-block" style="height: 315px!important;background-color: #F1F1F1;  ">
-  <div class="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/<?php echo  $ini->data['live']['erumEdya2Link']?>" 
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-        </iframe>
-        </div>
-  </div>
-
-
-  <div class="video-testimonial-content">
-        <h4 style="margin:15px" class="mb10">    <a style="color:#0e1b4d" target="_blank" href="https://www.youtube.com/channel/UCo9voRWVF7weDc3kqe0B09g">ERUMEDYA2 Kanalı</a> </h4>
-        <p class="erumEdya2Yayin"> <?php echo  $ini->data['live']['erumEdya2Yayin']?>  </p>
-        <strong class="erumedyaSingleYayinBaslik2"> <?php echo  $ini->data['live']['erumedyaSingleYayinBaslik2']?>  </strong>
-        <br>
-        <strong class="erumedyaSingleYayinTitle2"> <?php echo  $ini->data['live']['erumedyaSingleYayinTitle2']?>  </strong>
-        <br>
-        <strong class="erumedyaSingleYayinKonusmaci2"> <?php echo  $ini->data['live']['erumedyaSingleYayinKonusmaci2']?>  </strong>
-    </div>
-
-
-</div>
-<?php
-endif;
-?>
-
-
-<?php if ($ini->data['live']['erumedya2Open']=="no"):?>
-<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-  <div class="video-testimonial-block" style="height: 315px!important;background-color: #F1F1F1;  ">
-      <div class="video-thumbnail"><img src="assets/img/youtubeLogo.png" alt="" class="img-fluid"></div>
-      <div class="video">
-          <!-- <iframe src="https://www.youtube.com/embed/KEiAVv1UNac" allowfullscreen>
-          </iframe> -->
+          <div class="video-testimonial-content">
+              <h4 style="margin:15px" class="mb10">   <a style="color:#0e1b4d" target="_blank" href="https://www.youtube.com/user/EruMedya">ERUMEDYA Kanalı</a> </h4>
+              <p class="erumEdya1Yayin"> <?php echo  $ini->data['live']['erumEdya1Yayin']?>  </p>
+              <strong class="erumedyaSingleYayinBaslik1"> <?php echo  $ini->data['live']['erumedyaSingleYayinBaslik1']?>  </strong>
+              <br>
+              <strong class="erumedyaSingleYayinTitle1"> <?php echo  $ini->data['live']['erumedyaSingleYayinTitle1']?>  </strong>
+              <br>
+              <strong class="erumedyaSingleYayinKonusmaci1"> <?php echo  $ini->data['live']['erumedyaSingleYayinKonusmaci1']?>  </strong>
+          </div>
       </div>
-      <a href="#" class="video-play" style="    top: 74%;" ></a>
-  </div>
-  <div class="video-testimonial-content">
-  <h4 style="margin:15px" class="mb10">   <a style="color:#0e1b4d" target="_blank" href="https://www.youtube.com/channel/UCo9voRWVF7weDc3kqe0B09g">ERUMEDYA2 Kanalı</a> </h4>
+      <?php
+      endif;
+      ?>
 
-    <p class="panel2Live">  <?php echo  $ini->data['live']['erumEdya2Yayin']?> </p>
-  </div>
-</div>
-<?php
-endif;
-?>
 
-<?php
-endif;
-?>
-</div>
-</div>
+      <?php if ($ini->data['live']['erumedya1Open']=="no"):?>
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="video-testimonial-block" style="height: 315px!important;background-color: #F1F1F1;  ">
+            <div class="video-thumbnail"><img src="assets/img/youtubeLogo.png" alt="" class="img-fluid"></div>
+            <div class="video">
+            </div>
+            <a href="#" class="video-play" style="    top: 74%;" ></a>
+        </div>
+        <div class="video-testimonial-content">
+        <h4 style="margin:15px" class="mb10">   <a style="color:#0e1b4d" target="_blank" href="https://www.youtube.com/user/EruMedya">ERUMEDYA Kanalı</a> </h4>
+          <p class="panel1Live"> <?php echo  $ini->data['live']['erumEdya1Yayin']?> </p>
+        </div>
+      </div>
+      <?php
+      endif;
+      ?>
+
+
+
+      <?php if ($ini->data['live']['erumedya2Open']=="yes"):?>
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="video-testimonial-block" style="height: 315px!important;background-color: #F1F1F1;  ">
+        <div class="video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/<?php echo  $ini->data['live']['erumEdya2Link']?>" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen>
+              </iframe>
+              </div>
+        </div>
+
+
+        <div class="video-testimonial-content">
+              <h4 style="margin:15px" class="mb10">    <a style="color:#0e1b4d" target="_blank" href="https://www.youtube.com/channel/UCo9voRWVF7weDc3kqe0B09g">ERUMEDYA2 Kanalı</a> </h4>
+              <p class="erumEdya2Yayin"> <?php echo  $ini->data['live']['erumEdya2Yayin']?>  </p>
+              <strong class="erumedyaSingleYayinBaslik2"> <?php echo  $ini->data['live']['erumedyaSingleYayinBaslik2']?>  </strong>
+              <br>
+              <strong class="erumedyaSingleYayinTitle2"> <?php echo  $ini->data['live']['erumedyaSingleYayinTitle2']?>  </strong>
+              <br>
+              <strong class="erumedyaSingleYayinKonusmaci2"> <?php echo  $ini->data['live']['erumedyaSingleYayinKonusmaci2']?>  </strong>
+          </div>
+
+
+      </div>
+      <?php
+      endif;
+      ?>
+
+
+      <?php if ($ini->data['live']['erumedya2Open']=="no"):?>
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="video-testimonial-block" style="height: 315px!important;background-color: #F1F1F1;  ">
+            <div class="video-thumbnail"><img src="assets/img/youtubeLogo.png" alt="" class="img-fluid"></div>
+            <div class="video">
+                <!-- <iframe src="https://www.youtube.com/embed/KEiAVv1UNac" allowfullscreen>
+                </iframe> -->
+            </div>
+            <a href="#" class="video-play" style="    top: 74%;" ></a>
+        </div>
+        <div class="video-testimonial-content">
+        <h4 style="margin:15px" class="mb10">   <a style="color:#0e1b4d" target="_blank" href="https://www.youtube.com/channel/UCo9voRWVF7weDc3kqe0B09g">ERUMEDYA2 Kanalı</a> </h4>
+
+          <p class="panel2Live">  <?php echo  $ini->data['live']['erumEdya2Yayin']?> </p>
+        </div>
+      </div>
+      <?php
+      endif;
+      ?>
+
+      <?php
+      endif;
+      ?>
+      </div>
+      </div>
 
 
 
